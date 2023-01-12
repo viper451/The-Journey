@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useState} from 'react';
 import axios from 'axios'
 import shoe from '../../assets/shoe.jpg' 
 import './product.css'
@@ -7,7 +7,7 @@ function Product(props) {
     const store=()=>{
        window.location.href="/store"
     }
-
+ 
  
     return (
         <div>

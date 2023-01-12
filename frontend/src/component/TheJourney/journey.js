@@ -1,11 +1,18 @@
 import React from 'react';
-
-function journey(props) {
+import grasspic from '../../assets/grasspic.jpg';
+import './journey.css'
+function Journey(props) {
     return (
         <div>
-            
+            <div >
+            <img src={grasspic} className='grass' />
+            <b className="first-txt">
+            THE JOURNEY
+        </b>
+        <div className="vl"></div>
+            </div>
         </div>
     );
 }
 
-export default journey;
+export default Journey;

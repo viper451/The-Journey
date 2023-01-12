@@ -1,0 +1,26 @@
+body{
+    background-color: black;
+}
+.grass{
+    position: relative;
+    margin-left: 15%;
+    margin-right: 10%;
+    margin-top: 2.0%;
+   width: 70%;
+}
+
+.first-txt {
+    position: absolute;
+    top: 15%;
+    left: 37.5%;
+    color: white;
+    font-size: 280%;
+}
+
+.vl {
+    border-left: 6px solid rgb(255, 255, 255);
+    height: 400px;
+    position: absolute;
+    margin-left: 17.5%;
+    margin-top: -27.5%;
+  }

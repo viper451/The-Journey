@@ -7,6 +7,7 @@ import Team from './component/Team/team'
 import Navbar from './component/Navbar/navbar'
 import Product from './component/Product/product'
 import Store from './component/Store/store'
+import Journey from './component/TheJourney/journey'
 const App = () => {
 	
 	const [UserName, setUserName] = useState(localStorage.getItem("name"))
@@ -23,6 +24,7 @@ const App = () => {
 				<Route path='/team' exact element={<Team/>}/>
 				<Route path='/product' exact element={<Product/>}/>
 				<Route path='/store' exact element={<Store/>}/>
+				<Route path='/journey' exact element={<Journey/>}/>
 			
 
 			 </Routes>

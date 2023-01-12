@@ -38,8 +38,8 @@
 
 
 
-  /* Float four columns side by side */
-.column {
+  /* Float four column1s side by side */
+.column1 {
   float: left;
   width: 20%;
   padding: 100px 10px;

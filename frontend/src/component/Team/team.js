@@ -19,7 +19,7 @@ function Team(props) {
 </div>
             <div className='row'>
              
-           <div className='column'>
+           <div className='column1'>
             <div className="card">
   <img src={christiano}  alt=""  width={198} height={205}/>
  
@@ -33,7 +33,7 @@ function Team(props) {
 
 </div>
 </div>
-<div className='column'>
+<div className='column1'>
 <div className="card">
   <img src={james}   alt="" width={198} height={205}/>
  
@@ -47,7 +47,7 @@ function Team(props) {
 
 </div>
 </div>
-<div className='column'>
+<div className='column1'>
 <div className="card">
   <img src={ikercasillas}  width={198}  alt="" height={205}/>
 
@@ -59,7 +59,7 @@ function Team(props) {
 
 </div>
 </div>
-<div className='column'>
+<div className='column1'>
 <div className="card">
   <img src={zidane}  width={198}  alt="" height={205}/>
  
@@ -74,7 +74,7 @@ function Team(props) {
 
 </div>
 </div>
-<div className='column'>
+<div className='column1'>
 <div className="card">
   <img src={tonikroos}  width={198}  alt="" height={205}/>
   <p className="title">Toni Kross</p>

@@ -1,6 +1,6 @@
 import { useState,useEffect,useCallback } from 'react'
 import jwt_decode from "jwt-decode"
-import "bootstrap/dist/css/bootstrap.min.css"
+
 
 function Login() {
 	const [email, setEmail] = useState('')
