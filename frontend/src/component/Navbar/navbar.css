@@ -1,0 +1,45 @@
+body {margin: 0;}
+
+ul.topnav {
+  list-style-type: none;
+
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  overflow: hidden;
+  background-color: rgb(255, 255, 255);
+}
+
+ul.topnav li {  display: inline-block; }
+
+ul.topnav li a {
+  display:inline-block;
+  color: rgb(0, 0, 0);
+
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.logo{
+  float: left;
+  margin-left: 3.8%;
+  margin-top: 0.5%;
+  max-width: 60px;
+  
+}
+.account{
+  float: right;
+  margin-right: 3.2%;
+  margin-top: 0.5%;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #FFD700;}
+
+
+
+
+
+@media screen and (max-width: 700px) {
+
+  ul.topnav li {float: none;}
+}
