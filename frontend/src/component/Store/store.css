@@ -1,39 +1,50 @@
 * {
-    box-sizing: border-box;
-  }
-  
+  box-sizing: border-box;
+}
 
+.row {
+  padding-top: 2%;
+}
+.column {
+  float: left;
+  width: max-content;
+  height: max-content;
+  padding: 18px;
+  padding-left: 2px;
+  padding-top: 2%;
+  border: 2px;
+  border-color: #bbb;
+}
 
-  .row{
-    padding-top: 2%;
-  }
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.increment {
+  /* position:fixed; */
+  margin-left: 20%;
+  margin-top: 25%;
+  font-size: larger;
+}
+.decrement {
+  /* position:fixed; */
+  margin-left: 24%;
+  margin-top: 25%;
+  font-size: larger;
+}
+.ordernow {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 40%;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
   .column {
-  
-    float: left;
-    width: 50.00%;
-    padding: 20px;
-    padding-left :2px;
-    height: 700px; /* Should be removed. Only for demonstration */
-    padding-top: 2%;
-    border: 2px;
-    border-color: #bbb;
-    
- 
+    width: 100%;
   }
-
-
-  
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  
-  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 600px) {
-    .column {
-      width: 100%;
-    }
-  }
-  
+}
